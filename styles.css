@@ -1,0 +1,39 @@
+#content{
+    width: 50%;
+    margin: 20px auto;
+   }
+   form{
+    width: 30%;
+    margin: 50px auto;
+    margin-top:20px;
+   }
+   form div{
+    margin-top: 5px;
+   }
+   #img_div{
+    width:30%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+   img{
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 140px;
+   }
+
+   #btns{
+    flex-direction: 'row';
+    align-items: 'center';
+   }
+
+   body{
+    background-color:#92a8d1;
+   }
+
